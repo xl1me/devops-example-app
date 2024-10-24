@@ -19,8 +19,8 @@ jobs:
 
       - uses: docker/login-action@v2
         with:
-          username: xl1me
-          password: dckr_pat_P-zYKW364G_FT9_YmhMTH5COIlc
+          username: "xl1me"
+          password: "dckr_pat_P-zYKW364G_FT9_YmhMTH5COIlc"
 
       - name: Build and export to Docker
         uses: docker/build-push-action@v2
